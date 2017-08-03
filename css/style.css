@@ -1,0 +1,47 @@
+* { box-sizing: border-box; }
+body { background: #ffed66; }
+
+h1 {
+  text-align: center;
+  font-family: Helvetica, Arial, sans-serif;
+}
+
+#editor {
+  max-width: 1000px; 
+  margin: 100px auto 0 auto;
+  border: 3px solid black;
+  border-radius: 5px;
+}
+
+/* TOOLBAR */
+
+#toolbar {
+  background: white;
+  width: 100%;
+  padding: 0 5px;
+  border-bottom: 1px solid #ccc;
+}
+
+button {
+  background: white;
+  color: black;
+  width: 35px;
+  padding: 10px 0;
+  border: none;
+  cursor: pointer;
+  transition: background .25s ease-in;
+}
+
+button:hover { background: #eee; }
+button.active { color: #00cecb; }
+
+/* TEXT BOX */
+
+#text-box {
+  background: white;
+  width: 100%;
+  height: 400px;
+  padding: 10px;
+}
+
+#text-box:focus { outline: none; }

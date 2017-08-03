@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>A JavaScript WYSIWYG Editor</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="https://use.fontawesome.com/1bf4fd8dbf.js"></script>
+  </head>
+  <body>
+    <h1>WYSIWYG Editor</h1>
+    <div id="editor">
+      <div id="toolbar">
+        <button id="bold" class="fa fa-bold"></button>
+        <button id="italic" class="fa fa-italic"></button>
+        <button id="underline" class="fa fa-underline"></button>
+        <button id="strikethrough" class="fa fa-strikethrough"></button>
+        <button id="subscript" class="fa fa-subscript"></button>
+        <button id="superscript" class="fa fa-superscript"></button>
+        <button id="createLink" class="fa fa-link"></button>
+        <button id="insertOrderedList" class="fa fa-list-ol"></button>
+        <button id="insertUnorderedList" class="fa fa-list-ul"></button>
+        <button id="justifyLeft" class="fa fa-align-left"></button>
+        <button id="justifyCenter" class="fa fa-align-center"></button>
+        <button id="justifyRight" class="fa fa-align-right"></button>
+        <button id="justifyFull" class="fa fa-align-justify"></button>
+      </div>
+
+      <div id="text-box" contenteditable="true"></div>
+    </div>
+    <script src="js/app.js"></script>
+  </body>
+</html>
